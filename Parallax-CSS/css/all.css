@@ -1,0 +1,143 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td { 
+	margin: 0; 
+	padding: 0; 
+	border: 0; 
+	outline: 0;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+/* SECTIONS */
+
+section.module.parallax {
+  height: 900px;
+  background-position: 100% 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  padding-top: 100px;
+  text-align: center;
+}
+
+section.module.parallax h1 {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  font-family: Arial;
+}
+
+section.module.parallax-1 {
+  background-image: url("../images/1.jpg");
+}
+
+section.module.parallax-2-1 {
+  background-image: url("../images/2.jpg");
+}
+
+section.module.parallax-2-2 {
+  background-image: url("../images/3.jpg");
+}
+
+section.module.parallax-3-1 {
+  background-image: url("../images/4.jpg");
+}
+
+section.module.parallax-3-2{
+  background-image: url("../images/24.jpg");
+}
+
+section.module.parallax-3-3 {
+  background-image: url("../images/6.jpg");
+}
+
+section.module.parallax-3-4 {
+  background-image: url("../images/7.jpg");
+}
+
+section.module.parallax-3-5 {
+  background-image: url("../images/8.jpg");
+}
+
+section.module.parallax-3-6 {
+  background-image: url("../images/9.jpg");
+}
+
+section.module.parallax-3-7{
+  background-image: url("../images/5.jpg");
+}
+
+section.module.parallax-4-1{
+  background-image: url("../images/10.jpg");
+}
+
+section.module.parallax-4-2 {
+  background-image: url("../images/11.jpg");
+}
+
+section.module.parallax-4-3 {
+  background-image: url("../images/12.jpg");
+}
+
+section.module.parallax-4-4{
+  background-image: url("../images/13.jpg");
+}
+
+section.module.parallax-4-5{
+  background-image: url("../images/22.jpg");
+}
+
+section.module.parallax-4-6{
+  background-image: url("../images/23.jpg");
+}
+
+section.module.parallax-5 {
+  background-image: url("../images/14.jpg");
+}
+
+section.module.parallax-6-1 {
+  background-image: url("../images/15.jpg");
+}
+
+section.module.parallax-6-2{
+  background-image: url("../images/16.jpg");
+}
+
+section.module.parallax-6-3 {
+  background-image: url("../images/17.jpg");
+}
+
+section.module.parallax-6-4 {
+  background-image: url("../images/18.jpg");
+}
+
+section.module.parallax-7-1 {
+  background-image: url("../images/19.jpg");
+}
+
+section.module.parallax-7-2 {
+  background-image: url("../images/20.jpg");
+}
+
+section.module.parallax-7-3 {
+  background-image: url("../images/21.jpg");
+}
+
+@media all and (min-width: 600px) {
+  section.module.parallax h1 {
+    font-size: 48px;
+  }
+}
+
+@media all and (min-width: 960px) {
+  section.module.parallax h1 {
+    font-size: 48px;
+  }
+}
